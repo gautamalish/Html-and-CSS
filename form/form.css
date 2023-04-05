@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+form{
+    background-color: #746757;
+    width: 1000px;
+    height: 1000px;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+.text{
+    margin-top: 20px;
+}
+div{
+    margin-top: 0px;
+    margin-bottom:20px;
+    margin-left: 20px;
+}
+.button{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: blue;
+    color: white;
+}
+.button:hover{
+    color: blue;
+    background-color: white;
+}
+.text,.email,#message,.number{
+    width: 70%;
+}

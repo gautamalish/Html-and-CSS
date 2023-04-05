@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <form>
+        <div>
+        <label class="name">Name:</label>
+        <input type="text" class="text" name="username" placeholder="Enter your name"> 
+    </div>
+    <br>
+    <div>
+        <label for="Email">Email:</label>
+        <input type="email" class="email" name="useremail" placeholder="Enter your Email">
+    </div>
+    <br>
+    <div>
+        <label for="message" >Message:</label>
+        <textarea name="usermessage" id="message" cols="30" rows="10" placeholder="Enter the message here"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="Number">Number</label>
+        <input type="number" class="number" placeholder="Enter your number here">
+
+    </div>
+    <br>
+    <div>
+        <label for="Gender">Gender</label>
+        <select name="usergender" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Gay">Gay</option>
+    </select>
+    </div>
+    <br>
+    <div>
+        <label for="Frontend">Frontend</label>
+        <input type="checkbox" name="Skills" id="Frontend">
+        <label for="Backend">Backend</label>
+        <input type="checkbox" name="Skills" id="Backend">
+    </div>
+    <br>
+    <div>
+    <fieldset><legend>Mode of payment</legend>
+        <label for="cash">Cash</label>
+        <input type="radio" name="payment" id="cash">
+        <label for="bank">Bank</label>
+        <input type="radio" name="payment" id="bank">
+    </fieldset>
+</div>
+<br>
+<input type="button" value="Submit" class="button">
+
+    </form>
+</body>
+</html>
