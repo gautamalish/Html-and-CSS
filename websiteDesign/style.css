@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://i.ibb.co/HtfMdJS/bg.webp");
+    height: 60vw;
+}
+.logo{
+    display: inline-block;
+    margin: 2% 1%;
+}
+.nav{
+    display: inline-block;
+    position: absolute;
+    right: 15vh;
+    margin-top: 2%;
+}
+.logo>h1{
+    
+    color: salmon;
+    cursor: pointer;
+}
+
+.nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+    font-size: larger;
+    font-weight: bold;
+    transition: all 0.5s;
+    font-family: 'Playfair Display', serif;
+}
+.nav>a:hover{
+    color: salmon;
+}
+.nav>.home{
+    color: salmon;
+}
+section>h1{
+    color: salmon;
+    margin-top: 9%;
+    margin-left: 10%;
+    font-size: 70px;
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+h1+p{
+    color: white;
+    font-size: 50px;
+    margin-left: 11%;
+    margin-bottom: 2%;
+}
+p+p{
+    color: white;
+    margin-left: 10%;
+    font-size: 25px;
+}
+button{
+    margin-top: 3%;
+    margin-left: 17%;
+    width: 150px;
+    padding: 20px;
+    background-color: salmon;
+    border: 2px solid salmon;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+header{
+    position: sticky;
+    top: 0;
+}
